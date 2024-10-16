@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+    .wraper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0;
+      width: 100%;
+      height: 80px;
+      background-color: black;
+    }
+    .navigasi{
+      display: flex ;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;    
+      border-radius: 10px;
+      background-color:rgb(18,17,17);
+      transition: 1s ease-in;
+      list-style-type: none;
+}
+
+li a {
+  display: inline;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  transition: 2s ease-in;
+}
+.navigasi li a:hover {
+  background-color: black;
+  color: lightblue;
+  border-radius: 15%;
+  text-decoration: underline;
+}
+
+div{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.home{
+  background-color: darkgoldenrod;
+  transition: 2s ease-out linear;
+}
+
+.home:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+}
+
+.about{
+  background-color: darkgray;
+  color: black;
+  transition: 2s ease-out;
+}
+
+.about:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+}
+
+.contact{
+  background-color: darkcyan;
+  color: darkgray;
+  transition: 1s ease-in;
+}
+
+.contact:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+}
+
+h2{
+ text-align: center;
+ color: darkblue;
+}
